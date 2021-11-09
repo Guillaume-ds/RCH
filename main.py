@@ -7,9 +7,13 @@ st.markdown("""<h1 style='text-align:center; font-weigth:bold; color:rgba(100,10
 
 GPA = st.slider("Ton GPA", min_value=0.00,value=2.0,max_value=4.0,step=0.01)
 
-if GPA <2 : 
-    st.write ("Tu es un bernardaud")
-    st.image("idiot.jpg",use_column_width=True)
+if GPA >=0 and GPA <0.5 : 
+    st.title ("AlainNNN Seize ")
+    st.image("saiz.png",use_column_width=True)
+    st.caption("coucou")
+elif GPA >=0.5 and GPA<2: 
+    st.title ("Vas plutôt à la messe")
+    st.image("bambo.png",use_column_width=True)
 elif GPA >=2 and GPA<2.5 : 
     st.write("Tu es un nulos, tu passes pas")
     st.write("Rejoinds donc la censure")

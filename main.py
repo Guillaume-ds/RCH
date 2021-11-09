@@ -18,7 +18,11 @@ elif GPA >=2.5 and GPA<3 :
     st.write("Pile assez pour passer, suffisament peu pour pas être un IS")
     st.write("Tentes ton premier choix en premier choix")
     st.image("sketch.png")
-elif GPA >=3 and GPA<3.9 : 
+elif GPA >=3 and GPA<3.5 :
+    st.write("Ppresque indigne du RCH...")
+    st.write("On va te racadrer")
+    st.image("nkla.jpg")
+elif GPA >=3.5 and GPA<3.9 : 
     st.title("Putain d'IS")
     st.write("T'auras ton premier choix enc*lé, on te juge")
     st.image("groupe.jpg")

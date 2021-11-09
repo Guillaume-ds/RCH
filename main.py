@@ -12,7 +12,7 @@ if GPA >=0 and GPA <0.5 :
     st.image("saiz.png",use_column_width=True)
     st.caption("coucou")
 elif GPA >=0.5 and GPA<2: 
-    st.title ("Vas plutôt à la messe")
+    st.title ("Va plutôt à la messe")
     st.image("bambo.PNG",use_column_width=True)
 elif GPA >=2 and GPA<2.5 : 
     st.write("Tu es un nulos, tu passes pas")

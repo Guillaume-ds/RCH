@@ -5,7 +5,7 @@ from streamlit_player import st_player
 def page_direct():
     
     link = st.text_input(label= "Link of the video")
-    link2 = link+"&parent=share.streamlit.io&parent=share.streamlit.io/guillaume-ds/rch/main.py&parent=localhost:8501"
+    link2 = link+"&parent=share.streamlit.io&parent=share.streamlit.io/guillaume-ds/rch/main.py"
     play = st.button("play the video")
     if play:
         st_player(link2)
@@ -15,6 +15,7 @@ def page_direct():
         
     st.markdown(f"""<iframe 
                 src={link}
+                parent = share.streamlit.io/guillaume-ds/rch/main.py
                 allowfullscreen="<allow full screen>">
                 </iframe>""", unsafe_allow_html = True)
     st.markdown(f"""<iframe 

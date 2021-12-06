@@ -14,7 +14,7 @@ st.set_page_config(page_title="RCH",layout='wide')
 def main():
     #---------------------------------------------------------PAGES-------------------------------------------------------------------------------
     pages = {
-        "Comptage des points en direct": page_direct,
+        "Comptage des points en direct2": page_direct,
         "Les stats du RCH": page_stats,
     }
 

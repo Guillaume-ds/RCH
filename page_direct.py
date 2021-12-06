@@ -12,6 +12,3 @@ def page_direct():
         st.write(link2)
         st_player(link)
         st.write(link)
-        
-    st.video(link)
-    st.video(link2)

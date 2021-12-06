@@ -4,7 +4,7 @@ from streamlit_player import st_player
 
 def page_direct():
     
-    lien = st.text_input(label= "Lien du direct")
-    lancement = st.button("Lancer le direct")
-    if lancement:
-        st_player(f"{lien}")
+    link = st.text_input(label= "Link of the video")
+    play = st.button("play the video")
+    if play:
+        st_player(f"{link}")

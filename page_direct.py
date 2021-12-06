@@ -1,10 +1,10 @@
 import streamlit as st
 
+from streamlit_player import st_player
+
 def page_direct():
     
-    st.markdown(""" <iframe
-    src="https://player.twitch.tv/?SypherPK&parent=streamernews.example.com"
-    height="<height>"
-    width="<width>"
-    allowfullscreen="<allowfullscreen>">
-    </iframe>""", unsafe_allow_html=True)
+    lien = st.text_input(label= "Lien du direct")
+    lancement = st.button("Lancer le direct")
+    if lancement:
+        st_player(f"{lien}")

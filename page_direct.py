@@ -13,12 +13,5 @@ def page_direct():
         st_player(link)
         st.write(link)
         
-    st.markdown(f"""<iframe 
-                src={link}
-                parent = share.streamlit.io/guillaume-ds/rch/main.py
-                allowfullscreen="<allow full screen>">
-                </iframe>""", unsafe_allow_html = True)
-    st.markdown(f"""<iframe 
-                src={link2}
-                allowfullscreen="<allow full screen>">
-                </iframe>""", unsafe_allow_html = True)
+    st.video(link)
+    st.video(link2)

@@ -9,7 +9,7 @@ from page_direct import page_direct
 from page_stats import page_stats
 
 hr = "<hr style=' text-align : center; border-color : grey; margin-top: 10px; margin-bottom: 15px;'>"
-st.set_page_config(page_title="RCH",layout='wide')
+st.set_page_config(page_title="RCH",layout='wide',page_icon=":shark:")
 
 def main():
     #---------------------------------------------------------PAGES-------------------------------------------------------------------------------

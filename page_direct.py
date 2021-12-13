@@ -34,7 +34,7 @@ def page_direct(nom_direct):
                         height="500"
                         allowfullscreen="<allowfullscreen>"></iframe>"""     
         chat = f"""<iframe id="twitch-chat-embed"
-                        src="https://www.twitch.tv/embed/{chaine}/chat?parent=localhost"
+                        src="https://www.twitch.tv/embed/{chaine}/chat?parent=localhost&parent=rchendirect.herokuapp.com"
                         height="500"
                         width=100%>
                         </iframe>"""            
